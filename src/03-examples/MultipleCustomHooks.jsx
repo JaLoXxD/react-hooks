@@ -1,7 +1,5 @@
 import { useCounter, useFetch } from "../hooks";
-import { QuoteControls } from "./QuoteControls";
-import { SingleQuote } from "./SingleQuote";
-import { Spinner } from "./Spinner";
+import { Spinner, SingleQuote, QuoteControls } from "./";
 
 export const MultipleCustomHooks = () => {
 	const { counter, addCounter, reduceCounter } = useCounter(1);
