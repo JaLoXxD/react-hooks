@@ -22,7 +22,7 @@ export const FormWithCustomHook = () => {
 
 	return (
 		<>
-			<h2 className="mt-4">4)Form with custom hook</h2>
+			<h2 className="mt-4">4) Form with custom hook</h2>
 
 			<input type="text" className="form-control" placeholder="Username" name="username" value={username} onChange={onInputChange} />
 			<input type="email" className="form-control mt-2" placeholder="jororlando512@gmail.com" name="email" value={email} onChange={onInputChange} />

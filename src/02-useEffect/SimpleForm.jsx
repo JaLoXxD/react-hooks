@@ -28,7 +28,7 @@ export const SimpleForm = () => {
 
 	return (
 		<>
-			<h2 className="mt-4">3)Simple form</h2>
+			<h2 className="mt-4">3) Simple form</h2>
 
 			<input type="text" className="form-control" placeholder="Username" name="username" value={username} onChange={onInputChange} />
 			<input type="email" className="form-control mt-2" placeholder="jororlando512@gmail.com" name="email" value={email} onChange={onInputChange} />
