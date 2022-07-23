@@ -1,7 +1,7 @@
 import { useCounter, useFetch } from "../hooks";
-import { Spinner, SingleQuote, QuoteControls } from "./";
+import { Spinner, SingleQuote, QuoteControls } from "../03-examples";
 
-export const MultipleCustomHooks = () => {
+export const Layout = () => {
 	const { counter, addCounter, reduceCounter } = useCounter(1);
 
 	const { data, hasError, isLoading } = useFetch(`https://www.breakingbadapi.com/api/quotes/${counter}`);
@@ -20,7 +20,7 @@ export const MultipleCustomHooks = () => {
 
 	return (
 		<>
-			<h2>06) Breaking Bad Quotes</h2>
+			<h2>05) Breaking Bad Quotes</h2>
 			<div className="quotesCont d-flex justify-content-center flex-column">
 				{isLoading ? (
 					<Spinner />
