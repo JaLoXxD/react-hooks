@@ -13,7 +13,6 @@ export const useFetch = (url) => {
             setTimeout(async ()=>{
                 const resp = await fetch(url);
                 const data = await resp.json();
-                console.log(data);
                 setState({ ...state, data, isLoading: false });
             },500)
 		} catch (err) {
