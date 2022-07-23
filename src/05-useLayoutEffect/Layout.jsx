@@ -20,7 +20,7 @@ export const Layout = () => {
 
 	return (
 		<>
-			<h2>05) Breaking Bad Quotes</h2>
+			<h2>7) Breaking Bad Quotes</h2>
 			<div className="quotesCont d-flex justify-content-center flex-column">
 				{isLoading ? (
 					<Spinner />

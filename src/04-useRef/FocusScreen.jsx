@@ -11,7 +11,7 @@ export const FocusScreen = () => {
 
 	return (
 		<>
-			<h2>06)Focus Screen</h2>
+			<h2>6) Focus Screen</h2>
 			<input ref={inputRef} className="form-control" type="text" placeholder="Type your name..." />
 			<button onClick={onClick} className="btn btn-dark mt-3">
 				Set focus

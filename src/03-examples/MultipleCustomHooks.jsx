@@ -20,7 +20,7 @@ export const MultipleCustomHooks = () => {
 
 	return (
 		<>
-			<h2>06) Breaking Bad Quotes</h2>
+			<h2>5) Breaking Bad Quotes</h2>
 			<div className="quotesCont d-flex justify-content-center flex-column">
 				{isLoading ? (
 					<Spinner />
