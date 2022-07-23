@@ -9,7 +9,7 @@ const heavyStuff = (iterationNumber = 100) => {
 };
 
 export const MemoHook = () => {
-	const { counter, addCounter } = useCounter(5000);
+	const { counter, addCounter } = useCounter(100);
 
 	const memorizedValue = useMemo(() => heavyStuff(counter), [counter]);
 
