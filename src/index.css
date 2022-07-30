@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 body {
 	padding: 20px;
@@ -9,4 +9,21 @@ body {
 }
 button {
 	margin-right: 10px;
+}
+
+.complete {
+	color: rgb(60, 217, 154);
+}
+
+.completeTodo {
+	background-color: rgb(60, 217, 154) !important;
+}
+
+.completeTodo span{
+	text-decoration: line-through;
+}
+.routerLinks{
+	display:flex;
+	width: fit-content;
+	gap:10px;
 }
